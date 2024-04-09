@@ -1,0 +1,244 @@
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: rgba(127, 255, 212, 0.87);
+}
+
+nav {
+  text-align: center;
+  font-size: 1.1rem;
+  width: 100%;
+  font-family: mistral;
+  position: fixed;
+  margin-top: 15px;
+
+}
+
+.nav {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px 0;
+  border: 1px rgba(64, 224, 208, 0.425) solid;
+  border-radius: 90px;
+  background-color: rgba(42, 56, 56, 0.432);
+}
+
+.nav>li {
+  display: inline;
+  padding: 7px;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: rgba(0, 255, 255, 0.829);
+  /* margin: 0 30px; */
+  border: 1px rgba(255, 255, 255, 0.363) solid;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 2px 12px;
+}
+
+.nav-items:hover {
+  background: linear-gradient(to bottom, #000000, #16c4c4);
+}
+
+.welcome {
+  text-align: center;
+  font-family: pristina;
+  font-size: 2rem;
+  padding-top: 100px;
+}
+
+.opener {
+  width: 80%;
+  margin: 0 auto;
+  height: 400px;
+  text-align: left;
+  padding-top: 90px;
+  line-height: 2;
+}
+
+
+.image1 {
+  height: 350px;
+  width: 650px;
+  float: left;
+  border-radius: 40px;
+  border: 1px rgba(0, 255, 255, 0.836) solid;
+  margin: 0 50px;
+}
+
+.text {
+  margin: 90px 0;
+  font-family: cooper;
+}
+
+
+hr {
+  border: 9px rgba(0, 255, 255, 0.521) dotted;
+  border-bottom: none;
+  width: 5%;
+  margin: 30px auto;
+}
+
+.skill {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+  margin: 20px auto;
+  font-family: pristina;
+}
+
+
+.skillz {
+  width: 50%;
+  height: 200px;
+  margin: 70px auto;
+  padding-bottom: 30px;
+  font-family: cursive;
+  text-align: left;
+  line-height: 2;
+}
+
+.photo1,
+.photo2 {
+  width: 190px;
+  height: 190px;
+  border: 1px rgba(64, 224, 208, 0.76) solid;
+  border-radius: 20px;
+  float: left;
+  margin: 0 30px;
+}
+
+.photo2 {
+  float: right;
+}
+
+#Contacts {
+  text-align: center;
+}
+
+.contact {
+  width: 50%;
+  margin: 70px auto;
+  line-height: 2;
+  font-family: cursive;
+}
+
+.outro {
+  font-family: pristina;
+  font-size: 3rem;
+}
+
+.btn {
+  /* background: #6c11d485; */
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffff;
+  background-image: -webkit-linear-gradient(top, #11cdd452, #0ce3eb);
+  background-image: linear-gradient(to bottom, #0a2020, #056d70);
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #24dfc9, #082e28);
+  text-decoration: none;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #000000, #16c4c4);
+  font-family: cursive;
+  padding: 50px 0 30px;
+}
+
+
+.link {
+  text-decoration: none;
+  color: #11999E;
+  margin: 0 15px;
+  font-family: mistral;
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.7rem;
+  padding: 25px 0;
+}
+
+@media (max-width: 1160px) {
+  .opener {
+    text-align: center;
+    height: 40rem;
+  }
+
+  .image1 {
+    float: none;
+  }
+
+  .text {
+    /* padding: 90px; */
+  }
+
+  hr {
+    margin-top: 7rem;
+  }
+
+  #Skills {
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  .nav>li {
+    display: block;
+  }
+
+  .nav {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width:900px) {
+  .image1 {
+    height: 20rem;
+    width: 35rem;
+  }
+
+  .skill {
+    margin: 5px auto;
+    padding: 1rem;
+  }
+
+  .skillz {
+    width: 60%;
+    height: 23rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .photo1,
+  .photo2 {
+    float: none;
+  }
+}
+
+@media (max-width: 700px) and (max-width: 900px) {
+  .image1 {
+    height: 19rem;
+    width: 20rem;
+  }
+}
