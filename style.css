@@ -240,5 +240,6 @@ hr {
   .image1 {
     height: 19rem;
     width: 20rem;
+    margin: 0 auto;
   }
 }
