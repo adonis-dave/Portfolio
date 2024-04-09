@@ -141,7 +141,7 @@ hr {
 }
 
 .btn {
-  /* background: #6c11d485; */
+  font-family: cursive;
   border-radius: 8px;
   padding: 10px 20px;
   text-decoration: none;
