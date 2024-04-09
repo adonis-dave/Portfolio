@@ -159,7 +159,7 @@ hr {
 
 .footer {
   background: linear-gradient(to bottom, #000000, #16c4c4);
-  font-family: "Ephesis", cursive;
+  font-family: cursive;
   padding: 50px 0 30px;
 }
 
@@ -168,7 +168,7 @@ hr {
   text-decoration: none;
   color: #11999E;
   margin: 0 15px;
-  font-family: mistral;
+  font-family: "Ephesis", cursive;
   font-size: 1.5rem;
 }
 
