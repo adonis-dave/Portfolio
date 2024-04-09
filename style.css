@@ -53,7 +53,7 @@ nav {
   text-align: center;
   font-family: "Bilbo", cursive;
   font-size: 2rem;
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 .opener {
@@ -157,6 +157,10 @@ hr {
   text-decoration: none;
 }
 
+i {
+  margin: 4px auto;
+}
+
 .footer {
   background: linear-gradient(to bottom, #000000, #16c4c4);
   font-family: cursive;
@@ -244,5 +248,9 @@ hr {
     height: 19rem;
     width: 20rem;
     margin: 0 auto;
+  }
+
+  .link {
+    display: block;
   }
 }
