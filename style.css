@@ -105,7 +105,7 @@ hr {
   height: 200px;
   margin: 70px auto;
   padding-bottom: 30px;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   line-height: 2;
 }
@@ -132,7 +132,7 @@ hr {
   width: 50%;
   margin: 70px auto;
   line-height: 2;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .outro {
