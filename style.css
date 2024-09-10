@@ -38,7 +38,6 @@ nav {
 .nav-items {
   text-decoration: none;
   color: rgba(0, 255, 255, 0.829);
-  /* margin: 0 30px; */
   border: 1px rgba(255, 255, 255, 0.363) solid;
   border-radius: 50px;
   margin: 10px;
@@ -194,10 +193,6 @@ i {
 
   .image1 {
     float: none;
-  }
-
-  .text {
-    /* padding: 90px; */
   }
 
   hr {
