@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-
 }
 
 body {
@@ -18,7 +17,6 @@ nav {
   font-family: "Ephesis", cursive;
   position: fixed;
   margin-top: 15px;
-
 }
 
 .nav {
@@ -64,7 +62,6 @@ nav {
   line-height: 2;
 }
 
-
 .image1 {
   height: 350px;
   width: 650px;
@@ -81,7 +78,6 @@ nav {
   font-style: normal;
 }
 
-
 hr {
   border: 9px rgba(0, 255, 255, 0.521) dotted;
   border-bottom: none;
@@ -97,7 +93,6 @@ hr {
   font-family: "Bilbo", cursive;
 
 }
-
 
 .skillz {
   width: 50%;
@@ -165,7 +160,6 @@ i {
   font-family: cursive;
   padding: 50px 0 30px;
 }
-
 
 .link {
   text-decoration: none;
