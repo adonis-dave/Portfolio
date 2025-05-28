@@ -2,106 +2,183 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adonis Dave Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Ephesis:regular" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Bilbo:regular" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Amita:regular,700" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adonis Dave|Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Ephesis:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Bilbo:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Amita:regular,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
-    <section id="Home">
-        <nav>
-            <div class="nav-bar">
-                <div class="nav-list">
-                    <ul class="nav">
-                        <li><a class="nav-items" href="#Home">Home</a></li>
-                        <li><a class="nav-items" href="#Skills">Skills</a></li>
-                        <li><a class="nav-items" href="#Contacts">Contacts</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <div class="Ogcontainer">
+    <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4" type="video/mp4"></video>
 
-        <div class="welcome">
-            <h2>Welcome to my Portfolio</h2>
+    <header>
+      <h1 data-aos="fade-down" data-aos-duration="1000" class="logo">
+        <span style="color: blueviolet;">ADO</span>NIS
+      </h1>
+
+      <nav>
+        <a data-aos="fade-down" data-aos-duration="1500" href="">Home</a>
+        <a data-aos="fade-down" data-aos-duration="2000" href="">About</a>
+        <a data-aos="fade-down" data-aos-duration="2500" href="">Skills</a>
+        <a data-aos="fade-down" data-aos-duration="3000" href="">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="row">
+        <!-- <div class="card card-left"> -->
+        <div class="content">
+          <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="1500" class="tag-box">
+            <div class="tag">WELCOME TO MY PORTFOLIO &wedbar;</div>
+          </div>
+          <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="2000">
+            Request to <span class="gradient">Reality</span> Perfectly <span class="gradient">Delivered</span>
+          </h1>
+          <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="2500" class="description">
+            I am an aspiring full stack developer with experience in Website, Software and Mobile Development. Check out
+            some of my Projects and Skills.
+          </p>
+
+          <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="3000" class="buttons">
+            <a href="" class="btn-contact"><i class="fa-solid fa-paper-plane"></i></i>Contact Me</a>
+            <a href="" class="btn-see-more">Hire Me <i class="fa-solid fa-angles-down"></i></a>
+          </div>
         </div>
+        <!-- </div> -->
 
-        <div class="opener">
-            <img class="image1" src="img1.jpg" alt="owner image">
-            <div class="text">
-                <h2>Hello there! <br></h2>
-                <h2>I am David Denis.</h2>
-                <h2>Your programmer.</h2>
-            </div>
-        </div>
-    </section>
+        <!-- <div class="card card-right"> -->
+        <!-- SPLINE 3D element library -->
+        <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+          data-aos-duration="3000" class="robot-3d"
+          url="https://prod.spline.design/Lrd5bxtcKJVMxRCI/scene.splinecode"></spline-viewer>
+        <!-- </div> -->
+      </div>
 
-    <hr>
 
-    <section id="Skills">
+
+    </main>
+  </div>
+
+  <!--SPLINE 3D element library -->
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+  </div>
+
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://kit.fontawesome.com/751d8e9461.js" crossorigin="anonymous"></script>
+
+</body>
+
+<!-- <body>
+    <div class="container">
+      <video
+        class="bg-vid"
+        autoplay
+        loop
+        muted
+        plays-inline
+        src="videos/galaxy.mp4"
+      ></video>
+      
+
+      <hr />
+
+      <section id="Skills">
         <div class="skill">
-            <h2>My Skills.</h2>
-            <br>
+          <h2>My Skills.</h2>
+          <br />
         </div>
 
         <div class="skillz">
-            <img class="photo2" src="coding.jpg" alt="">
-            <h3>Programming</h3>
-            <p>For Coding, the passion was aroused as soon as I started using digital devices and the thirst was
-                increased
-                when I joined my Bachelors' Degree Level Education at NIT as a Computer Science student. </p>
+          <img class="photo2" src="images/coding.jpg" alt="" />
+          <h3>Programming</h3>
+          <p>
+            For Coding, the passion was aroused as soon as I started using
+            digital devices and the thirst was increased when I joined my
+            Bachelors' Degree Level Education at NIT as a Computer Science
+            student.
+          </p>
         </div>
 
         <div class="skillz">
-            <img class="photo1" src="img2.jpg" alt="">
-            <h3>Photography & Editing</h3>
-            <p>As soon as I finished my Ordinary Level studies, I possessed a smartphone which brought me into the world
-                of Photography. </p>
+          <img class="photo1" src="images/img2.jpg" alt="" />
+          <h3>Photography & Editing</h3>
+          <p>
+            As soon as I finished my Ordinary Level studies, I possessed a
+            smartphone which brought me into the world of Photography.
+          </p>
         </div>
 
         <div class="skillz">
-            <img class="photo2" src="coding1.jpg" alt="">
-            <h3>Web Designing And Mobile App Dev</h3>
-            <p>What can I say when all I can see is the awesome sweet world of Web Designing with its cool
-                features, amazing aesthetics and all🤤.....Im all in!!! </p>
+          <img class="photo2" src="images/coding1.jpg" alt="" />
+          <h3>Web Designing And Mobile App Dev</h3>
+          <p>
+            What can I say when all I can see is the awesome sweet world of Web
+            Designing with its cool features, amazing aesthetics and
+            all🤤.....Im all in!!!
+          </p>
         </div>
+      </section>
 
-    </section>
+      <hr />
 
-    <hr>
-
-    <section id="Contacts">
-
+      <section id="Contacts">
         <div class="contact">
-            <h2 class="outro">Get in Touch</h2>
-            <h3>If you are a later sleeper (Coder) like I do...</h3>
-            <p>If you love the technical world as much as I do, then we can vap snaps and code while teching. Let's chat while
-                coding</p>
+          <h2 class="outro">Get in Touch</h2>
+          <h3>If you are a later sleeper (Coder) like I do...</h3>
+          <p>
+            If you love the technical world as much as I do, then we can vap
+            snaps and code while teching. Let's chat while coding
+          </p>
 
-            <a class="btn" href="mailto:daviddenis656@gmail.com">CONTACT ME</a>
+          <a class="btn" href="mailto:daviddenis656@gmail.com">CONTACT ME</a>
         </div>
 
         <div class="footer">
+          <a class="link" href="http://wa.me/+255615915717" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+          >
+          <a
+            class="link"
+            href="https://www.instagram.com/adonis_daveofficial/?utm_source=qr&igsh=MWV2N3NkcWJwY3AxNA%3D%3D#"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i> Instagram</a
+          >
+          <a
+            class="link"
+            href="https://www.facebook.com/mixty.equilla"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i> Facebook</a
+          >
+          <a
+            class="link"
+            href="https://github.com/Adonis-Dave/Portfolio.git"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i> Github</a
+          >
 
-            <a class="link" href="http://wa.me/+255615915717" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a class="link" href="https://www.instagram.com/adonis_daveofficial/?utm_source=qr&igsh=MWV2N3NkcWJwY3AxNA%3D%3D#" target="_blank"><i
-                    class="fa-brands fa-instagram"></i> Instagram</a>
-            <a class="link" href="https://www.facebook.com/mixty.equilla" target="_blank"><i class="fa-brands fa-facebook"></i>
-                Facebook</a>
-            <a class="link" href="https://github.com/Adonis-Dave/Portfolio.git" target="_blank"><i class="fa-brands fa-github"></i>
-                Github</a>
-
-            <p class="copyright">©️ 2025 Adonis Dave @ Copyrighted</p>
-
+          <p class="copyright">©️ 2025 Adonis Dave @ Copyrighted</p>
         </div>
+      </section>
 
-    </section>
-
-
-    <script src="https://kit.fontawesome.com/751d8e9461.js" crossorigin="anonymous"></script>
-</body>
+      <script
+        src="https://kit.fontawesome.com/751d8e9461.js"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body> -->
 
 </html>
