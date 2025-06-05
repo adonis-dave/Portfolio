@@ -16,7 +16,7 @@
 <body>
 
   <!-- MAIN SECTION -->
-  <section>
+  <section id="home">
     <div class="Ogcontainer">
       <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4" type="video/mp4"></video>
 
@@ -26,16 +26,15 @@
         </h1>
 
         <nav>
-          <a data-aos="fade-down" data-aos-duration="1500" href="">Home</a>
-          <a data-aos="fade-down" data-aos-duration="2000" href="">About</a>
-          <a data-aos="fade-down" data-aos-duration="2500" href="">Skills</a>
+          <a data-aos="fade-down" data-aos-duration="1500" href="#home">Home</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="#about">About</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="#Skills">Skills</a>
           <a data-aos="fade-down" data-aos-duration="3000" href="">Contact</a>
         </nav>
       </header>
 
       <main>
         <div class="row">
-          <!-- <div class="card card-left"> -->
           <div class="content">
             <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
               data-aos-duration="1500" class="tag-box">
@@ -55,12 +54,11 @@
             <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
               data-aos-duration="3000" class="buttons">
               <a href="" class="btn-contact"><i class="fa-solid fa-paper-plane"></i></i>Contact Me</a>
-              <a href="#info" class="btn-see-more">Hire Me <i class="fa-solid fa-angles-down"></i></a>
+              <a href="#about" class="btn-see-more">Hire Me <i class="fa-solid fa-angles-down"></i></a>
             </div>
           </div>
           <!-- </div> -->
 
-          <!-- <div class="card card-right"> -->
           <!-- SPLINE 3D element library -->
           <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
             data-aos-duration="3000" class="robot-3d"
@@ -76,13 +74,14 @@
   </section>
 
   <!-- INFO SECTION -->
-  <section id="info" class="info-section">
-    <h1 class="section-title">Hello There!👋</h1>
+  <section id="about" class="info-section">
+    <h1 class="section-title autoDisplay">Hello There!👋</h1>
 
     <div class="info-cards">
       <div class="card">
         <img src="images/adonis.jpg" alt="" />
-        <h1>Hello, I am David Denis a.k.a Adonis Dave</h1>
+        <h1>Hello, I am David Denis <span style="color: blueviolet;">a.k.a</span> <span class="gradient">Adonis
+            Dave</span></h1>
         <p>
           As a finalist in Computer Science at National Insitute of Transport, Tanzania, I am an aspiring full stack
           developer with accumulating experience in Website, Software and Mobile Development.
@@ -94,8 +93,8 @@
         <img src="images/grid2.png" alt="" />
         <h1>Tech Stack</h1>
         <p>
-          I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-          applications.
+          Pursuing NODEJS and Express as my current tech stack with experience in HTML, CSS, JavaScript,
+          Python and SQL.
         </p>
       </div>
 
@@ -109,7 +108,9 @@
         <h1>My Passion for Coding</h1>
         <p>
           I love solving problems and building things through code. Programming isn't just my profession—it's my
-          passion. I enjoy exploring new technologies, and enhancing my skills.
+          passion. I enjoy learnig new
+          technologies and improving my skills every day. As I always say, "This is how you put a PC keyboard to work
+          its magic".
         </p>
 
         <img src="images/grid4.png" alt="" />
@@ -117,9 +118,121 @@
     </div>
   </section>
 
+  <!-- PROJECT SECTION -->
+  <section id="projects" class="my-project">
+    <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
 
+    <div class="project-card autoBlur">
+      <div class="project-image">
+        <img src="images/coding.jpg" alt="">
+      </div>
 
+      <div class="hover-sign"></div>
 
+      <div class="project-info fadein-left">
+        <h1>Front<span style="color: blueviolet;">-</span>End <span class="gradient">Landing Pages</span></h1>
+
+        <p>These are the front-end websites I have made during several hackathons conducted by Africa's Talking Limited.
+        </p>
+        <button>View Project <i class="fa-solid fa-book-open"></i></button>
+      </div>
+    </div>
+
+    <div class="project-card autoBlur">
+      <div class="project-image">
+        <img src="images/coding1.jpg" alt="">
+      </div>
+
+      <div class="hover-sign"></div>
+
+      <div class="project-info fadein-left">
+        <h1>USSD <span class="gradient">Application </span>System</h1>
+
+        <p>A mobile-based Loan Application system streamlining applications, approvals, and report generation while
+          automating SMS notifications for efficient financial services tailored for HESLB.
+        </p>
+        <button>View Project <i class="fa-solid fa-book-open"></i></button>
+      </div>
+    </div>
+
+    <div class="project-card autoBlur">
+      <div class="project-image">
+        <img src="images/coding2.jpg" alt="">
+      </div>
+
+      <div class="hover-sign"></div>
+
+      <div class="project-info fadein-left">
+        <h1>Front<span style="color: blueviolet;">-</span>End <span class="gradient">Projects</span></h1>
+
+        <p>These are the front-end websites I have made during several hackathons conducted by Africa's Talking Limited.
+        </p>
+        <button>View Project <i class="fa-solid fa-book-open"></i></button>
+      </div>
+    </div>
+    <div class="more autoBlur">
+      <button>More Projects <i class="fa-solid fa-angles-right"></i></button>
+    </div>
+
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="Skills" class="skills-section">
+
+    <h1 class="section-title autoDisplay">My Skills 💪</h1>
+
+    <div class="skills-box autoDisplay">
+      <img class="skills-image" src="images/coding1.jpg" alt="">
+      <div class="designer">
+        <h1 class="gradient">Designer <i class="fa-solid fa-laptop"></i></h1>
+
+        <p>I have expertise in HTML, CSS, JavaScript, and design tools like
+          Figma and Adobe XD. My strength lies in blending aesthetics with
+          functionality to create seamless user experiences.</p>
+      </div>
+
+      <div class="coder">
+        <h1 class="gradient">Coder <i class="fa-solid fa-code"></i></h1>
+
+        <p>I'm skilled in HTML, CSS, JavaScript, and frameworks like React
+          and Node.js. I also have experience with database management using
+          MongoDB and MySQL</p>
+      </div>
+
+      <div class="slider" reverse="true" style="--width: 100px; --height: 100px; --quantity: 9">
+        <div class="list">
+          <div class="item" style="--position: 1">
+            <img src="images/1.png" alt="" />
+          </div>
+          <div class="item" style="--position: 2">
+            <img src="images/2.png" alt="" />
+          </div>
+          <div class="item" style="--position: 3">
+            <img src="images/3.png" alt="" />
+          </div>
+          <div class="item" style="--position: 4">
+            <img src="images/4.png" alt="" />
+          </div>
+          <div class="item" style="--position: 5">
+            <img src="images/5.webp" alt="" />
+          </div>
+          <div class="item" style="--position: 6">
+            <img src="images/6.png" alt="" />
+          </div>
+          <div class="item" style="--position: 7">
+            <img src="images/7.png" alt="" />
+          </div>
+          <div class="item" style="--position: 8">
+            <img src="images/8.png" alt="" />
+          </div>
+          <div class="item" style="--position: 9">
+            <img src="images/9.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
 
 
@@ -136,57 +249,10 @@
 
 </body>
 
+
+</html>
+
 <!-- <body>
-    <div class="container">
-      <video
-        class="bg-vid"
-        autoplay
-        loop
-        muted
-        plays-inline
-        src="videos/galaxy.mp4"
-      ></video>
-      
-
-      <hr />
-
-      <section id="Skills">
-        <div class="skill">
-          <h2>My Skills.</h2>
-          <br />
-        </div>
-
-        <div class="skillz">
-          <img class="photo2" src="images/coding.jpg" alt="" />
-          <h3>Programming</h3>
-          <p>
-            For Coding, the passion was aroused as soon as I started using
-            digital devices and the thirst was increased when I joined my
-            Bachelors' Degree Level Education at NIT as a Computer Science
-            student.
-          </p>
-        </div>
-
-        <div class="skillz">
-          <img class="photo1" src="images/img2.jpg" alt="" />
-          <h3>Photography & Editing</h3>
-          <p>
-            As soon as I finished my Ordinary Level studies, I possessed a
-            smartphone which brought me into the world of Photography.
-          </p>
-        </div>
-
-        <div class="skillz">
-          <img class="photo2" src="images/coding1.jpg" alt="" />
-          <h3>Web Designing And Mobile App Dev</h3>
-          <p>
-            What can I say when all I can see is the awesome sweet world of Web
-            Designing with its cool features, amazing aesthetics and
-            all🤤.....Im all in!!!
-          </p>
-        </div>
-      </section>
-
       <hr />
 
       <section id="Contacts">
@@ -234,5 +300,3 @@
       ></script>
     </div>
   </body> -->
-
-</html>
