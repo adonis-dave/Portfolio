@@ -20,7 +20,7 @@
     <div class="Ogcontainer">
       <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4" type="video/mp4"></video>
 
-      <header>
+      <header data-aos="fade-down" data-aos-duration="500">
         <h1 data-aos="fade-down" data-aos-duration="1000" class="logo">
           <span style="color: blueviolet;">ADO</span>NIS
         </h1>
@@ -29,7 +29,7 @@
           <a data-aos="fade-down" data-aos-duration="1500" href="#home">Home</a>
           <a data-aos="fade-down" data-aos-duration="2000" href="#about">About</a>
           <a data-aos="fade-down" data-aos-duration="2500" href="#Skills">Skills</a>
-          <a data-aos="fade-down" data-aos-duration="3000" href="">Contact</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="#Contact">Contact</a>
         </nav>
       </header>
 
@@ -53,20 +53,17 @@
 
             <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
               data-aos-duration="3000" class="buttons">
-              <a href="" class="btn-contact"><i class="fa-solid fa-paper-plane"></i></i>Contact Me</a>
-              <a href="#about" class="btn-see-more">Hire Me <i class="fa-solid fa-angles-down"></i></a>
+              <a href="mailto:daviddenis656@gmail.com" class="contact-me"><i
+                  class="fa-solid fa-paper-plane"></i></i>Contact Me</a>
+              <a href="#about" class="hire-me">Hire Me <i class="fa-solid fa-angles-down"></i></a>
             </div>
           </div>
-          <!-- </div> -->
 
           <!-- SPLINE 3D element library -->
           <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
             data-aos-duration="3000" class="robot-3d"
             url="https://prod.spline.design/Lrd5bxtcKJVMxRCI/scene.splinecode"></spline-viewer>
-          <!-- </div> -->
         </div>
-
-
       </main>
     </div>
     <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="2000" data-aos-offset="0"
@@ -85,8 +82,11 @@
         <p>
           As a finalist in Computer Science at National Insitute of Transport, Tanzania, I am an aspiring full stack
           developer with accumulating experience in Website, Software and Mobile Development.
-        </p>
-        <button><i class="fa-regular fa-file-lines" style="margin: 5px;"></i>My Resume</button>
+        </p><a href="https://drive.google.com/file/d/1Se0nSIYd1SyLxGmj-WlcZttS_Wn33I1B/view?usp=drive_link"
+          target="_blank">
+          <button><i class="fa-regular fa-file-lines" style="margin: 5px;"></i>My Resume</button>
+        </a>
+
       </div>
 
       <div class="card">
@@ -124,23 +124,26 @@
 
     <div class="project-card autoBlur">
       <div class="project-image">
-        <img src="images/coding.jpg" alt="">
+        <img src="images/tinDog.png" alt="">
       </div>
 
       <div class="hover-sign"></div>
 
       <div class="project-info fadein-left">
-        <h1>Front<span style="color: blueviolet;">-</span>End <span class="gradient">Landing Pages</span></h1>
+        <h1>Website <span class="gradient">Landing</span> Pages</h1>
 
         <p>These are the front-end websites I have made during several hackathons conducted by Africa's Talking Limited.
         </p>
-        <button>View Project <i class="fa-solid fa-book-open"></i></button>
+        <a href="https://tin-dog-k48k.onrender.com" target="_blank">
+          <button>View Project <i class="fa-solid fa-book-open"></i></button>
+        </a>
+
       </div>
     </div>
 
     <div class="project-card autoBlur">
       <div class="project-image">
-        <img src="images/coding1.jpg" alt="">
+        <img src="images/USSD.png" alt="">
       </div>
 
       <div class="hover-sign"></div>
@@ -151,13 +154,15 @@
         <p>A mobile-based Loan Application system streamlining applications, approvals, and report generation while
           automating SMS notifications for efficient financial services tailored for HESLB.
         </p>
-        <button>View Project <i class="fa-solid fa-book-open"></i></button>
+        <a href="tel:+*384*71188#">
+          <button>View Project <i class="fa-solid fa-book-open"></i></button>
+        </a>
       </div>
     </div>
 
     <div class="project-card autoBlur">
       <div class="project-image">
-        <img src="images/coding2.jpg" alt="">
+        <img src="images/cookie-guard.png" alt="">
       </div>
 
       <div class="hover-sign"></div>
@@ -167,11 +172,14 @@
 
         <p>These are the front-end websites I have made during several hackathons conducted by Africa's Talking Limited.
         </p>
-        <button>View Project <i class="fa-solid fa-book-open"></i></button>
+        <a href="https://github.com/adonis-dave/AT-hackathon"><button>View Project <i
+              class="fa-solid fa-book-open"></i></button></a>
+
       </div>
     </div>
-    <div class="more autoBlur">
-      <button>More Projects <i class="fa-solid fa-angles-right"></i></button>
+    <div class="more autoBlur"><a href="https://github.com/adonis-dave"><button>More Projects <i
+            class="fa-solid fa-angles-right"></i></button></a>
+
     </div>
 
   </section>
@@ -199,7 +207,7 @@
           MongoDB and MySQL</p>
       </div>
 
-      <div class="slider" reverse="true" style="--width: 100px; --height: 100px; --quantity: 9">
+      <div class="slider" reverse="true" style="--width: 100px; --height: 100px; --quantity:9">
         <div class="list">
           <div class="item" style="--position: 1">
             <img src="images/1.png" alt="" />
@@ -230,10 +238,66 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
+
+  <!-- CONTACT SECTION -->
+  <section id="Contact" class="contact-section">
+    <h1 class="section-title autoDisplay">Get in Touch 😎</h1>
+
+    <div class="social-box autoBlur">
+      <a href="tel:+255615915717" target="_blank"><i class="fa-solid fa-phone"></i> +255 615 915 717</a>
+      <a href="mailto:daviddenis656@gmail.com" target="_blank"><i class="fa-solid fa-paper-plane"></i> Email Me</a>
+      <a href="linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i> David Denis</a>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/adonis_daveofficial/?utm_source=qr&igsh=MWV2N3NkcWJwY3AxNA%3D%3D#"
+          target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="http://wa.me/+255615915717" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/mixty.equilla" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-box autoBlur">
+      <p>Whether you're looking to build a new website, improve your existing platform, or bring a unique project to
+        life. I'm here to help.</p>
+
+      <p>Full Name</p>
+      <input placeholder="Your Full name" type="full name">
+
+      <p>Email Address</p>
+      <input placeholder="Your Email" type="email">
+      <p>Your Message</p>
+      <input class="input-message" type="text" placeholder="Share your thoughts...">
+
+      <a href="mailto:daviddenis656@gmail.com"> <button>Send Message <i class="fa-solid fa-envelope"></i></button>
+      </a>
+    </div>
+  </section>
+
+  <section data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0"
+    data-aos-duration="500" class="footer">
+    <div class="iconz">
+      <div class="box-icons">
+        <a class="link" href="https://github.com/adonis-dave" target="_blank"><i
+            class="fa-brands fa-github ifooter"></i>
+        </a>
+        <a class="link" href="http://wa.me/+255615915717" target="_blank"><i class="fa-brands fa-whatsapp ifooter"></i>
+        </a>
+        <a class="link"
+          href="https://www.instagram.com/adonis_daveofficial/?utm_source=qr&igsh=MWV2N3NkcWJwY3AxNA%3D%3D#"
+          target="_blank"><i class="fa-brands fa-instagram ifooter"></i> </a>
+        <a class="link" href="https://www.facebook.com/mixty.equilla" target="_blank"><i
+            class="fa-brands fa-facebook ifooter"></i>
+        </a>
+
+      </div>
+      <p class="copyright footag">©️ Copyright 2025 @ Adonis Dave</p>
+    </div>
+
+
+
+  </section>
 
 
   <!--SPLINE 3D element library -->
@@ -251,52 +315,3 @@
 
 
 </html>
-
-<!-- <body>
-      <hr />
-
-      <section id="Contacts">
-        <div class="contact">
-          <h2 class="outro">Get in Touch</h2>
-          <h3>If you are a later sleeper (Coder) like I do...</h3>
-          <p>
-            If you love the technical world as much as I do, then we can vap
-            snaps and code while teching. Let's chat while coding
-          </p>
-
-          <a class="btn" href="mailto:daviddenis656@gmail.com">CONTACT ME</a>
-        </div>
-
-        <div class="footer">
-          <a class="link" href="http://wa.me/+255615915717" target="_blank"
-            ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
-          >
-          <a
-            class="link"
-            href="https://www.instagram.com/adonis_daveofficial/?utm_source=qr&igsh=MWV2N3NkcWJwY3AxNA%3D%3D#"
-            target="_blank"
-            ><i class="fa-brands fa-instagram"></i> Instagram</a
-          >
-          <a
-            class="link"
-            href="https://www.facebook.com/mixty.equilla"
-            target="_blank"
-            ><i class="fa-brands fa-facebook"></i> Facebook</a
-          >
-          <a
-            class="link"
-            href="https://github.com/Adonis-Dave/Portfolio.git"
-            target="_blank"
-            ><i class="fa-brands fa-github"></i> Github</a
-          >
-
-          <p class="copyright">©️ 2025 Adonis Dave @ Copyrighted</p>
-        </div>
-      </section>
-
-      <script
-        src="https://kit.fontawesome.com/751d8e9461.js"
-        crossorigin="anonymous"
-      ></script>
-    </div>
-  </body> -->
