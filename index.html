@@ -31,6 +31,33 @@
           <a data-aos="fade-down" data-aos-duration="2500" href="#Skills">Skills</a>
           <a data-aos="fade-down" data-aos-duration="3000" href="#Contact">Contact</a>
         </nav>
+
+        <div class="menu-icon" onclick="toggleSidebar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="sidebar">
+          <div class="sidestyle">
+            <div class="close-icon" onclick="toggleSidebar()">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+              <a href="https://www.instagram.com/adonis_daveofficial/?utm_source=qr&igsh=MWV2N3NkcWJwY3AxNA%3D%3D#"
+                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="http://wa.me/+255615915717" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://www.facebook.com/mixty.equilla" target="_blank"><i
+                  class="fa-brands fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
       </header>
 
       <main>
@@ -53,8 +80,8 @@
 
             <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
               data-aos-duration="3000" class="buttons">
-              <a href="mailto:daviddenis656@gmail.com" class="contact-me"><i
-                  class="fa-solid fa-paper-plane"></i></i>Contact Me</a>
+              <a href="mailto:daviddenis656@gmail.com" class="contact-me"><i class="fa-solid fa-paper-plane"></i></i>
+                Contact Me</a>
               <a href="#about" class="hire-me">Hire Me <i class="fa-solid fa-angles-down"></i></a>
             </div>
           </div>
@@ -62,7 +89,7 @@
           <!-- SPLINE 3D element library -->
           <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
             data-aos-duration="3000" class="robot-3d"
-            url="https://prod.spline.design/Lrd5bxtcKJVMxRCI/scene.splinecode"></spline-viewer>
+            url="https://prod.spline.design/mOpV8rDmKUtJdaAS/scene.splinecode"></spline-viewer>
         </div>
       </main>
     </div>
@@ -278,6 +305,7 @@
   <section data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0"
     data-aos-duration="500" class="footer">
     <div class="iconz">
+      <p class="copyright footag">©️ Copyright 2025 @ Adonis Dave</p>
       <div class="box-icons">
         <a class="link" href="https://github.com/adonis-dave" target="_blank"><i
             class="fa-brands fa-github ifooter"></i>
@@ -292,17 +320,15 @@
         </a>
 
       </div>
-      <p class="copyright footag">©️ Copyright 2025 @ Adonis Dave</p>
     </div>
 
 
 
   </section>
 
-
+  <script src="app.js"></script>
   <!--SPLINE 3D element library -->
-  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
-  </div>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.8/build/spline-viewer.js"></script>
 
   <!-- AOS Library -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
