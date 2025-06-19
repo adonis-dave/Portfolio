@@ -434,7 +434,6 @@ main {
   width: 80%;
   height: 250vh;
   margin-top: 200px;
-  /* margin-bottom: 700px; */
 }
 
 #projects {
@@ -873,6 +872,12 @@ main {
   font-size: 30px;
   cursor: pointer;
   display: none;
+}
+
+.menu-icon:hover {
+  color: blueviolet;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.784));
+
 }
 
 
@@ -1335,8 +1340,7 @@ main {
   }
 
   .scroll-down {
-    bottom: 5%;
-    left: 50%;
+    display: none;
   }
 
   .hire-me {
@@ -1353,7 +1357,7 @@ main {
   }
 
   .card {
-    min-height: 15rem;
+    height: 30vh;
   }
 
   .card h1 {
@@ -1363,11 +1367,27 @@ main {
 
   .card:nth-child(1) {
     grid-column: span 2;
-    height: 100vh;
+    height: 55vh;
+  }
+
+  .card:nth-child(3) {
+    height: 52vh;
+  }
+
+  .card:nth-child(4) {
+    height: 40vh;
   }
 
   .info-cards .card:nth-child(1) h1 {
     bottom: 35%;
+  }
+
+  .info-cards .card:nth-child(1) p {
+    bottom: 13%;
+  }
+
+  .info-cards .card:nth-child(4) p {
+    max-width: 70vw;
   }
 
   .card:nth-child(1) img {
@@ -1375,8 +1395,13 @@ main {
     height: 50%;
   }
 
+  #projects {
+    margin: 10% auto;
+    height: 200%;
+  }
+
   .project-card {
-    height: 50%;
+    height: 19%;
   }
 
   .project-info p {
@@ -1397,7 +1422,7 @@ main {
   }
 
   .skills-box {
-    height: 160vh;
+    height: 100vh;
     margin-right: 80px;
     margin: 1% auto;
   }
@@ -1434,7 +1459,7 @@ main {
 
   .contact-section {
     scale: 0.9;
-    height: 170vh;
+    height: 100vh;
   }
 
   .contact-section .section-title {
