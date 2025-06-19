@@ -92,7 +92,7 @@
   </section>
 
   <!-- INFO SECTION -->
-  <section id="about" class="info-section">
+  <section data-aos="fade-down" data-aos-duration="1300" id="about" class="info-section">
     <h1 class="section-title autoDisplay">Hello There!👋</h1>
 
     <div class="info-cards">
@@ -327,7 +327,12 @@
   <!-- AOS Library -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      disable: function () {
+        // Disable AOS for screens 480px or smaller
+        return window.innerWidth <= 480;
+      },
+    });
   </script>
   <script src="https://kit.fontawesome.com/751d8e9461.js" crossorigin="anonymous"></script>
 
