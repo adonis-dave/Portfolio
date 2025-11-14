@@ -760,11 +760,11 @@ main {
 
 
 /* FOOTER SECTION */
-/* .footer {
+.footer {
   text-align: center;
 }
 
-.footag {
+/*.footag {
   font-weight: bold;
   font-size: 100%;
   padding-top: 12px;
@@ -802,9 +802,9 @@ main {
 
 
 .appFooter {
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
   background: rgba(122, 122, 212, 0.168);
   backdrop-filter: blur(8px);
@@ -826,7 +826,7 @@ main {
 }
 
 .social-links a {
-  color: #e0e0e0;
+  color: #7668ff;
   font-size: 1rem;
   text-decoration: none;
   margin: 0 8px;
